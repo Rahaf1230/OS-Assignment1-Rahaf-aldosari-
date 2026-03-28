@@ -49,7 +49,7 @@ Understanding how threads are used in the simulation
 
 **Time spent**: 
 
----
+--
 
 ### Entry 2 - [Date and Time]
 Entry 2 - March 27, 2026, 10:00 PM
