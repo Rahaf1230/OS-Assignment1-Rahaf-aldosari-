@@ -17,10 +17,15 @@ Document your development process as you work on the assignment. Add entries sho
 **What I did**: Started the assignment and reviewed the given code
 
 **Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
+Created GitHub account using university email
+
+Forked the starter repository
+
+Renamed repository correctly
+
+Added my student ID in SchedulerSimulation.java
+
+Ran the program successfully
 
 **Challenges**: 
 Understanding how threads are used in the simulation
@@ -51,7 +56,14 @@ Entry 2 - March 27, 2026, 10:00 PM
 **What I did**: 
 Ran the program and analyzed output
 **Details**: 
-Observed how processes move in the ready queu
+Analyzed Process class and SchedulerSimulation
+
+Understood Round-Robin scheduling
+
+Observed how threads are created and executed
+
+Traced program output step by step
+
 **Challenges**: 
  Interpreting scheduling behavio
 **Solution**: 
@@ -65,7 +77,7 @@ What I did: Implemented Feature 1 (Process Priority)
 
 Details:
 
-Added priority field (115)
+Added priority field (1-5)
 
 Generated random priority
 
@@ -75,7 +87,7 @@ Challenges: Deciding where to generate priority
 
 Solution: Added it inside constructor
 
-Time spent: 50 minutes
+Time spent: 48 minutes
 
 
 ---
@@ -123,8 +135,8 @@ Time spent: 1 hour
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
-10 hours
+**Total time spent on assignment**: [10 hours]
+
 **Most challenging part**: 
  Understanding scheduling behavio
 **Most interesting learning**: 
