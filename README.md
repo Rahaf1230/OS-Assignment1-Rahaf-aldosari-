@@ -449,11 +449,11 @@ Submit a **text file** named: `YourName_StudentID_Assignment1.txt`
 
 **The file should contain:**
 ```
-Student Name: [rahaf aldousry]
+Student Name: [رهف مبارك مدلول الدوسري]
 Student ID: [445052029]
 GitHub Username: [Rahaf1230]
 Repository Link: https://github.com/Rahaf1230/OS-Assignment1-Rahaf-aldosari-.git
-Video Link: https://drive.google.com/file/d/14nsgDAPEVyv1OMlqreFcI7KRtMlBOdG4/view?usp=drivesd
+Video Link: https://drive.google.com/file/d/1cjIC_7rEZId5TdRt_RRt7i5oV0WbPrC8/view
 Date Submitted: [27 march,2026]
 ```
 
