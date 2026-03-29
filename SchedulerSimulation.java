@@ -29,7 +29,7 @@ class Process implements Runnable {
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
-    int priority;
+    int priority; // feature 1 ;add waiting tracking for procsses
     // Feature 3: Implemented waiting time calculation and summary report
     private long creationTime;
     private long waitingTime;
@@ -40,7 +40,7 @@ class Process implements Runnable {
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
-        this.priority = (int) (Math.random() * 5) + 1;// feature 1
+        this.priority = (int) (Math.random() * 5) + 1;// feature 1 ;add waiting tracking for procsses
         // Feature 3: Implemented waiting time calculation and summary report
         this.creationTime = System.currentTimeMillis();
         this.waitingTime = 0;
@@ -163,7 +163,7 @@ class Process implements Runnable {
 }
 
 public class SchedulerSimulation {
-    static int contextSwitches = 0;// feature 2
+    static int contextSwitches = 0;// feature 2 compute average turnarounud for all proceses
 
     public static void main(String[] args) {
 
@@ -304,7 +304,7 @@ public class SchedulerSimulation {
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN +
                 "╚════════════════════════════════════════════════════════════════════════════════╝" +
                 Colors.RESET + "\n");
-        System.out.println("Total context switches: " + contextSwitches); // feature2 display total
+        System.out.println("Total context switches: " + contextSwitches); // feature 2 compute average turnarounud for all proceses
 
         // Feature 3: Implemented waiting time calculation and summary report
         System.out.println("\nProcess Summary:");
@@ -329,8 +329,11 @@ public class SchedulerSimulation {
         // Map the thread to the process, so we can track the process associated with
         // each thread
         processMap.put(thread, process);
+        // feature 1 ;add waiting tracking for procsses
         System.out.println(process.getName() + " (Priority: " + process.priority + ") added...");
         // Print a message indicating the process has entered the ready queue
+
+        
 
     }
 }
